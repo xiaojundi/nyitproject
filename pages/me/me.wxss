@@ -1,0 +1,4 @@
+/* pages/me/me.wxss */
+.me{
+  text-align: center;
+}

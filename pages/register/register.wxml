@@ -1,0 +1,22 @@
+<!--pages/register/register.wxml-->
+<view class='regist'>
+	<h1>用户注册</h1>
+	<view style="display:flex;">
+		<label>用户名： </label>
+		<input class='input' placeholder='请输入用户名' bindinput='inputName'></input>
+	</view>
+	<view style="display:flex;">
+		<label>密码： </label>
+		<input class='input' placeholder='请输入密码' bindinput='inputPassword'></input>
+	</view>
+	<view style="display:flex;">
+		<label>电话 </label>
+		<input class='input' placeholder='请输入电话' bindinput='inputPhone'></input>
+	</view>
+	<view style="display:flex;">
+		<label>地址： </label>
+		<input class='input' placeholder='请输入地址' bindinput='inputAddress'></input>
+	</view>
+	<button class='regist-button' type='primary' bindtap='register'>注册</button>
+  <button class='login-button' type='default' bindtap='login'>已有账号， 点击登录</button>
+</view>

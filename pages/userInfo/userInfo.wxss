@@ -1,0 +1,53 @@
+.regist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.regist view{
+  width: 100%;
+}
+
+.regist .layout label{
+  width: 20%;
+  font-size: 3.5vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+.regist .layout {
+  margin-top: 10%;
+  display: flex;
+}
+
+.country-picker{
+  margin-top: 10%;
+}
+
+.country-picker view{
+  font-size: 3.5vw;
+}
+
+.country-picker .picker{
+  border-bottom: 1px solid grey;
+}
+
+.country-picker .picker label{
+  width: 20%;
+  font-weight: bold;
+}
+
+.country-picker .picker div{
+  width: 80%;
+}
+
+
+.regist view input{
+  width: 80%;
+  border-bottom: 1px solid grey;
+  font-size: 2.5vw;
+}
+
+.regist-button{
+  margin-top: 10%;
+}

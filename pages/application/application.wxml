@@ -1,0 +1,18 @@
+<!--pages/application/application.wxml-->
+<view class="application">
+	<view class="item">
+		咨询签约
+	</view>
+	<view class="item">
+		骄人战绩
+	</view>
+	<view class="item">
+		成为我们
+	</view>
+	<view class="item">ß
+		MM 宣传片
+	</view>
+	<view class="item">
+		招生进度
+	</view>
+</view>

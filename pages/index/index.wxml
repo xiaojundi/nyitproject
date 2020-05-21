@@ -1,0 +1,46 @@
+<div class="custom-item">
+	<div bindtap='strategy'>
+		<image src="../../images/index/strategy.png"></image>
+	</div>
+	<div bindtap="experience">
+		<image src="../../images/index/experience.png"></image>
+	</div>
+	<div bindtap="study">
+		<image src="../../images/index/reading.png"></image>
+	</div>
+	<div bindtap="forum">
+		<image src="../../images/index/forum.png"></image>
+	</div>
+</div>
+<view id='banner'>
+	<swiper indicator-dots="{{true}}" indicator-color="#ffffff" autoplay="true" circular="true">
+		<block wx:for="{{banner}}" wx:key="banner">
+			<swiper-item>
+				<image src='{{item}}' mode="aspectFill" style="width:100%;height:100%;" />
+			</swiper-item>
+		</block>
+	</swiper>
+</view>
+<view class="list-component">
+	<view>留学新闻</view>
+	<view class="news-list">
+		<view class="news-item">
+			message 1
+		</view>
+		<view class="news-item">
+			message 1
+		</view>
+		<view class="news-item">
+			message 1
+		</view>
+		<view class="news-item">
+			message 1
+		</view>
+		<view class="news-item">
+			message 1
+		</view>
+		<view class="news-item">
+			message 1
+		</view>
+	</view>
+</view>

@@ -1,0 +1,24 @@
+.regist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.regist view{
+  width: 100%;
+}
+
+.regist view label{
+  width: 20%;
+  margin-top: 10%;
+}
+
+.regist view input{
+  width: 80%;
+  border-bottom: 1px solid grey;
+  margin-top: 10%;
+}
+
+.regist-button{
+  margin-top: 10%;
+}

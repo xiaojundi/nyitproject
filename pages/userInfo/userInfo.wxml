@@ -1,0 +1,31 @@
+<!--pages/register/register.wxml-->
+<view class='regist'>
+	<h1>直通海外，移民名校申请</h1>
+	<view class="layout" style="display:flex;">
+		<label>您的姓名： </label>
+		<input class='input' placeholder='已加密，请放心填写' bindinput='inputName'></input>
+	</view>
+	<view class="layout">
+		<label>手机号码： </label>
+		<input class='input' placeholder='已加密，请放心填写' bindinput='inputPassword'></input>
+	</view>
+	<view class="country-picker">
+		<view class="section__title">意向的国家和地区</view>
+		<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+			<view class="picker">
+        <label>当前选择： </label>
+        <div>{{array[index]}}</div>
+			</view>
+		</picker>
+	</view>
+	<view class="layout">
+		<label>所属地区 </label>
+		<input class='input' placeholder='已加密，请放心填写' bindinput='inputAddress'></input>
+	</view>
+	<view class="layout">
+		<label>留学需求 </label>
+		<input class='input' placeholder='已加密，请放心填写' bindinput='inputAddress'></input>
+	</view>
+	<button class='regist-button' type='primary' bindtap='register'>注册</button>
+	<button class='login-button' type='default' bindtap='login'>已有账号， 点击登录</button>
+</view>

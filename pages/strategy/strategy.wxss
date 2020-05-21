@@ -1,0 +1,12 @@
+/* pages/strategy/strategy.wxss */
+
+.strategy {
+  margin: 20px;
+}
+
+view h4 {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}

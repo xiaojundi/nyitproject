@@ -1,0 +1,5 @@
+<!--pages/me/me.wxml-->
+<view class="me">
+	<label>点击登录</label>
+	<button type="primary" bindtap="login">登录</button>
+</view>
