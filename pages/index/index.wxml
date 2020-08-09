@@ -5,11 +5,12 @@
 	<div bindtap="experience">
 		<image src="../../images/index/experience.png"></image>
 	</div>
-	<div bindtap="study">
-		<image src="../../images/index/reading.png"></image>
+	<div bindtap="immigration">
+		<span>移民渠道</span>
 	</div>
-	<div bindtap="forum">
-		<image src="../../images/index/forum.png"></image>
+	<div bindtap="caLife">
+		<!-- <image src="../../images/index/living.png" alt=""></image> -->
+		<span>生活福利</span>
 	</div>
 </div>
 <view id='banner'>

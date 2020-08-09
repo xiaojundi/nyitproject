@@ -1,0 +1,12 @@
+/* miniprogram/pages/immigration/immigration.wxss */
+
+.caLife{
+  padding: 5px;
+}
+.selected{
+  font-weight: bold;
+  color: red;
+}
+image{
+  width: 100%;
+}

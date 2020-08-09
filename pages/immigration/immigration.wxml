@@ -1,0 +1,60 @@
+<!--miniprogram/pages/caLife/caLife.wxml-->
+<!--pages/strategy/strategy.wxml-->
+<view class="caLife">
+    <view class='main-header'>加拿大联邦可以移民的项目可以归纳为以下十个项目</view>
+    <text>\n</text>
+    <text>
+        <text class="selected">Provincial Nominees 省提名 \n </text>
+        Express Entry 快速通道 \n
+        Family Sponsorship 家庭团聚 \n
+        Quebec-selected skilled workers 魁省技术移民 \n
+        Atlantic Immigration Pilot 大西洋移民试点项目 \n
+        Caregivers 护理移民项目 \n
+        Start-up Visa 创业移民项目 \n
+        Self-employed 自雇移民项目 \n
+        Rural and Northern Immigration Pilot 农村和北方移民试点项目 \n
+        Agri-Food Pilot 农副产品移民试点项目 \n
+		</text>
+  <view>
+		<text>\n</text>
+	</view>
+	<view>
+		<view>
+			<view>
+				<h4 class='header'><span>其中以省提名最为可靠。我们将重点介绍BC省的省提名项目。</span></h4>
+        <text>\n</text>
+        <image class="image" src="../../images/immigration/bcpnp.png"></image>
+				<p><span>
+        BC省的省提名移民政策项目(British Columbia Provincial Nominee Program, 简称BCPNP）内容丰富，涵盖各行各业，可以算得上加拿大最友好最方便的省移民政策。其中尤其以国际留学生硕士博士移民项目最为可靠，成功率高达100%。参加此项目的申请人可以每周工作20小时，配偶可以全职工作，孩子可以免费就读公立学校，并领取牛奶金。
+BC PNP大致可以分为两个渠道，BC PNP之技术类移民（Skilled Immigration) 和BC PNP之快速移民通道（Express Entry)。
+      </span></p>
+			</view>
+      <text>\n</text>
+			<view>
+				<h4 class='header'><span>下面来详细介绍一下这两个种类的BC省提名；</span></h4>
+        <text>\n</text>
+        <text>
+          BCPNP技术类移民又可分为以下几类： \n
+          技术移民(Skilled Worker) \n
+          国际毕业生(International Graduate) \n
+          国际研究生(International Post Graduate) \n
+          专业医疗保健(Health Care Professional- Skilled Worker) \n
+          初等技术工人和半技术工人(Entry Level & Semi- Skilled) \n \n
+          同样，快速类省提名（EEBCPNP)也可分为以下几种： \n
+          国际毕业生(EEBC- International Graduate) \n
+          研究生(EEBC- International Post Graduate) \n
+          技术移民(EEBC- Skilled Worker) \n
+          专业医疗保健(EEBC- Health Care Professional- Skilled Worker) \n \n 
+          以上所有的种类中，国际硕士博士毕业生通道成功率达到100%，申请人毕业于BC省指定大学特定专业的硕士或博士（主要为农业/生物/计算机/工程/工程技术/数学/ 健康保健/自然资源/物理等九大专业），无需工作Offer即可申请。
+        </text>
+			</view>
+      <text>\n</text>
+			<view>
+				<h4 class='header'><span>满足此项目的学校BC省有数十所公私立院校。其中性价比，时效最高当的当属纽约理工学院的网络安全项目，最快一年就可以毕业，可以申请三年开放式工作签证，100%拿到BC PNP.</span></h4>
+        <text>\n</text>
+        <image src='../../images/immigration/universityList.png'></image>
+			</view>
+		</view>
+	</view>
+</view>
+

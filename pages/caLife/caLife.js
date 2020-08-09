@@ -1,39 +1,13 @@
-// pages/index/index.js
+// miniprogram/pages/caLife/caLife.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
-    banner:[
-      '../../images/index/banner1.png','../../images/index/banner1.png','../../images/index/banner1.png'
-    ]
+
   },
-  strategy: function(){
-    wx.navigateTo({
-      url: '/pages/strategy/strategy',
-    })
-  },
-  experience: function(){
-    wx.navigateTo({
-      url: '/pages/experience/experience',
-    })
-  },
-  study: function(){
-    wx.navigateTo({
-      url: '/pages/study/study',
-    })
-  },
-  caLife: function(){
-    wx.navigateTo({
-      url: '/pages/caLife/caLife',
-    })
-  },
-  immigration: function(){
-    wx.navigateTo({
-      url: '/pages/immigration/immigration',
-    })
-  },
+
   /**
    * Lifecycle function--Called when page load
    */
